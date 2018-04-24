@@ -1,0 +1,11 @@
+[package]
+name = "criterion-test"
+version = "0.1.0"
+authors = ["Robin Stocker <robin@nibor.org>"]
+
+[dev-dependencies]
+criterion = "*"
+
+[[bench]]
+name = "example"
+harness = false
