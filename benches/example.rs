@@ -13,7 +13,7 @@ fn example_benchmark(c: &mut Criterion) {
         |b, s| example(b, s),
         vec![
             "foo",
-            "bar/baz"
+            "bar"
         ]
     );
 }
